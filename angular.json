@@ -10,7 +10,7 @@
       "prefix": "svnx",
       "schematics": {
         "@nrwl/schematics:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "architect": {
@@ -23,7 +23,7 @@
             "polyfills": "apps/client/src/polyfills.ts",
             "tsConfig": "apps/client/tsconfig.app.json",
             "assets": ["apps/client/src/favicon.ico", "apps/client/src/assets"],
-            "styles": ["apps/client/src/styles.sass"],
+            "styles": ["apps/client/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -77,7 +77,7 @@
             "polyfills": "apps/client/src/polyfills.ts",
             "tsConfig": "apps/client/tsconfig.spec.json",
             "karmaConfig": "apps/client/karma.conf.js",
-            "styles": ["apps/client/src/styles.sass"],
+            "styles": ["apps/client/src/styles.scss"],
             "scripts": [],
             "assets": ["apps/client/src/favicon.ico", "apps/client/src/assets"]
           }
@@ -131,10 +131,10 @@
   },
   "schematics": {
     "@nrwl/schematics:application": {
-      "style": "sass"
+      "style": "scss"
     },
     "@nrwl/schematics:library": {
-      "style": "sass"
+      "style": "scss"
     }
   },
   "defaultProject": "client"
